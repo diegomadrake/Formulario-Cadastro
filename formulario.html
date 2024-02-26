@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
 </head>
 <body>
 <h1>Formulário da Página</h1>
 <h2>Preencha seus dados</h2>
 
-<form>
+<form class="memoria">
 
     <label for="nome">NOME</label>
     <input type="text"> <br><br>
@@ -27,7 +28,7 @@
     <input type="text"> <br><br>
 
     <label for="telefone">TELEFONE</label>
-     <select name="telefone" id="fone">
+     <select name="telefone" id="fone" class="indentidade">
         <option value="11">(11)</option>
      </select>
      <input type="number"><br><br>
@@ -38,8 +39,10 @@
      <label for="senha">SENHA</label>
      <input type="text"><br><br>
 
-    <input type="submit" value="enviar dados">
-    <input type="reset" value="redefinir">
+     <div class="botao-enviar">
+        <input type="submit" value="enviar dados">
+        <input type="reset" value="redefinir">
+     </div>
 
     
 </form>

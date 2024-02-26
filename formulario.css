@@ -1,0 +1,24 @@
+body {
+    background-color:#320139 ;
+
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.memoria {
+ text-align: center;
+}
+
+.memoria > input {
+    border-radius: 50px;
+}
+
+.botao-enviar input {
+background-color: #f1debd;
+} 
+
+.memoria > label {
+    color: #5c6e6e;
+}
