@@ -22,3 +22,9 @@ background-color: #f1debd;
 .memoria > label {
     color: #5c6e6e;
 }
+
+.botao-enviar :hover {
+    background-color: black;
+    color: blanchedalmond;
+    transition: 1s;
+}
